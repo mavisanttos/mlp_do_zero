@@ -29,7 +29,7 @@ class Softmax:
     
     def backward(self, output_gradient):
         """
-        Nota: A derivada do Softmax combinada com a Cross-Entropy fica simplificada.
+        A derivada do Softmax combinada com a Cross-Entropy fica simplificada.
         Se usada isoladamente, a derivada do Softmax é uma matriz Jacobiana.
         Para o nosso fluxo padrão, vamos gerenciar o cálculo simplificado na Loss.
         """

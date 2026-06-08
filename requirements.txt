@@ -2,3 +2,5 @@ numpy
 matplotlib
 notebook
 tensorflow
+seaborn
+scikit-learn
